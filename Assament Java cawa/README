@@ -1,0 +1,31 @@
+Q ASSIGMNT1 ANSWERS.
+1. Identify the superclass and subclasses.
+ANS:Super Class Is The Main Class or Parint Class.
+subclasses is The Child Class that Extend The Main Class.
+2. Explain how inheritance reduces code duplication.
+ANS: Inheritance reduces code duplication by allowing subclasses to reuse the
+properties and methods of a superclass
+3. Identify the method that demonstrates polymorphism.
+ANS:Is allowing the same method to behave differently in different subclasses
+4. Explain why @Override is used.
+ANS:is used to indicate that a subclass method overrides a method from its superclass.
+ It helps the compiler detect mistakes
+
+
+Quation Assament2
+
+ **1. Why is MedicalService declared abstract?**
+
+MedicalService is declared abstract because it represents a general medical service that is implemented by its subclasses.
+
+**2. Can an object be created directly from MedicalService? Explain.**
+
+No, an object cannot be created directly from MedicalService because it is an abstract class. Objects must be created from its concrete subclasses.
+
+**3. What is the difference between an abstract method and a concrete method?**
+
+An abstract method has no body and must be implemented by a concrete subclass. A concrete method has a body containing code that performs a specific task.
+
+**4. Why must each concrete subclass implement calculateTotalCost()?**
+
+Each concrete subclass must implement `calculateTotalCost()` because every medical service may have a different cost calculation. This ensures that each subclass calculates its specific service cost.
