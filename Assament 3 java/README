@@ -1,0 +1,12 @@
+Q&A ASSIGMNT 3
+1. What is the purpose of try and catch blocks?
+`try` contains code that may cause an error, and `catch` handles the error.
+
+2. What is the difference between throw and throws?
+`throw` is used to throw an exception, while `throws` declares possible exceptions in a method.
+
+3. What is the purpose of the finally block?
+`finally` contains code that runs whether an exception occurs or not.
+
+4. Why is a custom exception useful in this application?
+It helps handle specific errors in the application.
